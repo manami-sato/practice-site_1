@@ -1,18 +1,25 @@
 $mainColor: #00507b;
 $accentColor: #bfb71b;
 $baceColor: #e7f3fa;
-$font: "Prompt", sans-serif;
+$mainEnFont: "Prompt", sans-serif;
+$subEnFont: "Libre Baskerville", serif;
 
-@mixin headlineSet($ai: center, $color: #707070, $bg: $mainColor) {
+@mixin headlineSet(
+  $ai: center,
+  $color: #707070,
+  $bg: $mainColor,
+  $m: 0 0 40px
+) {
   display: flex;
   align-items: $ai;
   flex-direction: column;
+  margin: $m;
   span {
     &:first-of-type {
       color: $color;
       font-size: 1.8rem;
       font-weight: bold;
-      font-family: $font;
+      font-family: $mainEnFont;
     }
     &:last-of-type {
       color: $mainColor;
@@ -26,7 +33,7 @@ $font: "Prompt", sans-serif;
     width: 1px;
     height: 64px;
     background: $bg;
-    margin: 0 16px;
+    margin: 8px 16px 0;
   }
 }
 
@@ -35,6 +42,7 @@ $font: "Prompt", sans-serif;
     content: $text;
     color: $color;
     font-size: 9rem;
+    line-height: 9rem;
     mix-blend-mode: multiply;
     position: absolute;
     bottom: $b;
