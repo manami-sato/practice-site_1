@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap");
+@import "@/assets/scss/ress.scss";
+@import "@/assets/scss/variables.scss";
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  color: #424242;
+  font-size: 1.4rem;
+  font-family: sans-serif;
+}
+a {
+  color: #424242;
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+::selection {
+  background: rgba($color: $accentColor, $alpha: 0.4);
+  color: $mainColor;
+}
+::-moz-selection {
+  //firefox
+  background: rgba($color: $accentColor, $alpha: 0.4);
+  color: $mainColor;
+}
+
+path {
+  fill: #fff;
+}
+rect {
+  fill: none;
+}
