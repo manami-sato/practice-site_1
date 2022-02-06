@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
 
-const route = "/";
-// /ecc/msatou/raict_app/
+const route = "manami-sato.github.io/practice-site_1/";
+// /practice-site_1/
 
 const routes = [
   {

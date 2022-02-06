@@ -2,7 +2,7 @@
 export default {
   data() {
     return {
-      path: "https://click.ecc.ac.jp/ecc/msatou/raict_app/",
+      // path: "https://manami-sato.github.io/practice-site_1/",
       imgPath: "https://manami-sato.github.io/practice-site_1/src/assets/img/",
       // name: "顔芸",
       name: "サンプル",
