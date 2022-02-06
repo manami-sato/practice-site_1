@@ -1,4 +1,4 @@
-# kaogei
+# practice-site_1
 
 ## Project setup
 ```
